@@ -1,0 +1,61 @@
+Fila (Queue):
+Na fila, o primeiro elemento inserido é o primeiro a ser removido (FIFO - First-In-First-Out).
+
+Passos:
+
+Inserir 3: Fila: [3]
+Inserir 7: Fila: [3, 7]
+Inserir 9: Fila: [3, 7, 9]
+Inserir 1: Fila: [3, 7, 9, 1]
+Inserir 0: Fila: [3, 7, 9, 1, 0]
+Remover elementos:
+
+Remover 3: Fila: [7, 9, 1, 0]
+Remover 7: Fila: [9, 1, 0]
+Remover 9: Fila: [1, 0]
+Remover 1: Fila: [0]
+Remover 0: Fila: []
+Sequência dos números removidos: 3, 7, 9, 1, 0
+
+Lista (List):
+Na lista, podemos escolher se queremos remover elementos do início, do meio ou do final da lista.
+
+Passos:
+
+Inserir 3: Lista: [3]
+Inserir 7: Lista: [3, 7]
+Inserir 9: Lista: [3, 7, 9]
+Inserir 1: Lista: [3, 7, 9, 1]
+Inserir 0: Lista: [3, 7, 9, 1, 0]
+Remover elementos:
+
+Remover do início: Lista: [7, 9, 1, 0]
+Remover do início: Lista: [9, 1, 0]
+Remover do início: Lista: [1, 0]
+Remover do início: Lista: [0]
+Sequência dos números removidos: 3, 7, 9, 1, 0
+
+Pilha (Stack):
+Na pilha, o último elemento inserido é o primeiro a ser removido (LIFO - Last-In-First-Out).
+
+Passos:
+
+Inserir 3: Pilha: [3]
+Inserir 7: Pilha: [3, 7]
+Inserir 9: Pilha: [3, 7, 9]
+Inserir 1: Pilha: [3, 7, 9, 1]
+Inserir 0: Pilha: [3, 7, 9, 1, 0]
+Remover elementos:
+
+Remover 0: Pilha: [3, 7, 9, 1]
+Remover 1: Pilha: [3, 7, 9]
+Remover 9: Pilha: [3, 7]
+Remover 7: Pilha: [3]
+Remover 3: Pilha: []
+Sequência dos números removidos: 0, 1, 9, 7, 3
+
+Portanto, a sequência dos números removidos em cada estrutura seria:
+
+Fila: 3, 7, 9, 1, 0
+Lista: 3, 7, 9, 1, 0
+Pilha: 0, 1, 9, 7, 3
