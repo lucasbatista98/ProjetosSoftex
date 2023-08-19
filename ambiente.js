@@ -1,0 +1,2 @@
+Intalei o Prettier para formatar o código,que ajuda a manter o código limpo e organizado
+Intalei também o Live Server, para criar um servidor local para que eu faça alterações no navegador em tempo real 
