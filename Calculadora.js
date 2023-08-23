@@ -1,30 +1,10 @@
-function calculadora(num1, num2, operacao) {
-  let resultado = 0;
+const readline = require("readline-sync");
 
-  switch (operacao) {
-    case 1:
-      resultado = num1 + num2;
-      break;
-    case 2:
-      resultado = num1 - num2;
-      break;
-    case 3:
-      resultado = num1 * num2;
-      break;
-    case 4:
-      resultado = num1 / num2;
-      break;
-    default:
-      console.log("Operação inválida! Escolha um número de 1 a 4.");
-      break;
-  }
+var nota1 = parseFloat(readline.question("nota 1 (entre 0 e 10): "));
+var nota2 = parseFloat(readline.question("nota 2 (entre 0 e 10): "));
+var nota3 = parseFloat(readline.question("nota 3 (entre 0 e 10): "));
+var soma = nota1 + nota2 + nota3;
 
-  return resultado;
-}
+var resultado = soma / 3;
 
-// Exemplos de uso:
-console.log(calculadora(5, 3, 1)); // Soma: 5 + 3 = 8
-console.log(calculadora(5, 3, 2)); // Subtração: 5 - 3 = 2
-console.log(calculadora(5, 3, 3)); // Multiplicação: 5 * 3 = 15
-console.log(calculadora(5, 3, 4)); // Divisão: 5 / 3 = 1.6666666666666667
-console.log(calculadora(5, 3, 5)); // Operação inválida: exibirá a mensagem de erro e retornará 0
+console.log(`A média entre ${nota1}, ${nota2} e ${nota3} é igual à ${resultado}.`);
